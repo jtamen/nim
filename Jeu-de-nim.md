@@ -80,3 +80,9 @@ radio.onReceivedString(function (receivedString) {
     }
 })
 ```
+## Etape 7 : carte arbitre
+Brancher la carte micro:bit en USB avec le câble fourni.
+![Afficher branchement](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fjeu%20de%20nim-branchement.jpg)
+Téléverser le programme dans la carte micro:bit à l'aide de la commande "Télécharger".
+![Afficher bouton](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fbp_telecharger.jpg)
+
