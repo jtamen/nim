@@ -8,9 +8,10 @@ Académie :
 ![Afficher logo-académie](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Flogo-IAN.png)
 
 ## @showdialog
-Nous allons réaliser un programme permettant de jouer au jeu de nim sur une carte micro:bit.
-Vingt dels de la carte sont allumées au départ plus une en bas à gauche représentant le 
-joueur 1. Deux personnes jouent à tour de rôle, et choisissent 1, 2 ou 3 allumettes (représentée par les leds
-de la microbit). Lorsque le joueur 1 à pris un certain nombre d'alumettes c'est au joueur 2 de jouer, 
-il est représenté par la led en bas à droite. Le joueur qui fini en enlevant la ou les dernières alumettes
-a gagné la partie.
+Nous allons réaliser un programme permettant de jouer au jeu de nim sur trois cartes micro:bit.
+Deux personnes jouent à tour de rôle (chacun possêde une carte), et choisissent à tour de rôle d'enlever 1, 2 ou 3 allumettes (représentée par des leds
+d'un bandeau connecté à la troisième  carte microbit). 
+Le 1er joueur choisi le nombre de dels à éteindre en cliquant sur le bouton A 1, 2 ou 3 fois sur le boton A de sa carte,
+puis il valide son choix en appuyant sur le bouton B.
+C'est ensuite au deuxième joueur de faie son choix, et ainsi de suite jusqu'à la dernière del qui désigne le gagnant.
+La carte 3 sert à désigner le joueur qui commence et à désigner le gagnant de la partie.
