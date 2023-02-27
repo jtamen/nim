@@ -22,12 +22,12 @@ Nous allons travailler dabord sur la 3eme carte, celle qui sert d'arbitrage et d
 Voici l'algorithme de programmation :
 ![Afficher l'algorithme arbitre](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Falgorithme_arbitre-Page-1.png)
 
-# Etape 1
+# Etape 1 : carte arbitre
 ![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Farbitre-1.jpg)
 Ce qui se transforme en :
 ![Afficher les blocs](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2FBlocs1.jpg)
 
-# Etape 2
+# Etape 2 : carte arbitre
 ![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Farbitre-2.jpg)
 ```blocks
 input.onButtonPressed(Button.A, function () {
@@ -42,17 +42,41 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-# Etape 2
-![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Farbitre-2.jpg)
+# Etape 3 : carte arbitre
+![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Farbitre-3.jpg)
 ```blocks
-input.onButtonPressed(Button.A, function () {
-    radio.sendNumber(10)
+input.onButtonPressed(Button.B, function () {
+    radio.sendNumber(20)
     basic.showLeds(`
-        . # . . #
         . # . # #
         . # . . #
-        . # . . #
-        # . . . #
+        . # . # #
+        . # . # .
+        # . . # #
         `)
+})
+```
+
+# Etape 4 : carte arbitre
+![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Farbitre-4.jpg)
+Ce qui se transforme en :
+![Afficher les blocs](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2FBlocs_toujours.jpg)
+
+# Etape 5 : carte arbitre
+![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Farbitre-5.jpg)
+Ce qui se transforme en :
+![Afficher les blocs](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2FBlocs5.jpg)
+
+# Etape 6 : carte arbitre
+![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Farbitre-6.jpg)
+```blocks
+radio.onReceivedString(function (receivedString) {
+    let Total = 0
+    if (receivedString == "Joueur1" && Total == 0) {
+        radio.sendString("J1")
+    }
+    if (receivedString == "Joueur2" && Total == 0) {
+        radio.sendString("J2")
+    }
 })
 ```
