@@ -15,3 +15,4 @@ Le 1er joueur choisi le nombre de dels à éteindre en cliquant 1, 2 ou 3 fois s
 puis il valide son choix en appuyant sur le bouton B.
 C'est ensuite au deuxième joueur de faire son choix, et ainsi de suite jusqu'à la dernière del qui désigne le gagnant.
 La carte 3 sert à désigner le joueur qui commence et à désigner le gagnant de la partie.
+![Afficher les 3 cartes](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fjeu%20de%20nim.jpg)
