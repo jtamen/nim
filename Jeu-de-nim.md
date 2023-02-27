@@ -21,3 +21,38 @@ La carte 3 sert à désigner le joueur qui commence et à désigner le gagnant d
 Nous allons travailler dabord sur la 3eme carte, celle qui sert d'arbitrage et d'éclairage des Dels.
 Voici l'algorithme de programmation :
 ![Afficher l'algorithme arbitre](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Falgorithme_arbitre-Page-1.png)
+
+# Etape 1
+![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Farbitre-1.jpg)
+Ce qui se transforme en :
+![Afficher les blocs](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2FBlocs1.jpg)
+
+# Etape 2
+![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Farbitre-2.jpg)
+```blocks
+input.onButtonPressed(Button.A, function () {
+    radio.sendNumber(10)
+    basic.showLeds(`
+        . # . . #
+        . # . # #
+        . # . . #
+        . # . . #
+        # . . . #
+        `)
+})
+```
+
+# Etape 2
+![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Farbitre-2.jpg)
+```blocks
+input.onButtonPressed(Button.A, function () {
+    radio.sendNumber(10)
+    basic.showLeds(`
+        . # . . #
+        . # . # #
+        . # . . #
+        . # . . #
+        # . . . #
+        `)
+})
+```

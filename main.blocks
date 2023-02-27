@@ -1,1 +1,7 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="GdXY,c~cpTa[3D@86y@2">strip</variable></variables></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="GdXY,c~cpTa[3D@86y@2">strip</variable><variable id="4G4kQ]k/s_?!Mt]{=6n]">Total</variable><variable id="3TaG22#).Eane{){S,oG">Dels</variable><variable id="T/8x*c|~/DTyl#V7%kvE">index</variable></variables><block type="device_button_event" id="}~%cy,jHpw4v$^0;$?bW" x="64" y="76"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="radio_datagram_send" id="tT~+htlJ6kc!MU.oa#=u"><value name="value"><shadow type="math_number" id="fEcw.~as%x8[gaM+DT?3"><field name="NUM">10</field></shadow></value><next><block type="device_show_leds" id="Kek7BH2Y2L/X^)[p4lZL"><field name="LEDS">`
+        . # . . # 
+        . # . # # 
+        . # . . # 
+        . # . . # 
+        # . . . #
+        `</field></block></next></block></statement></block></xml>
