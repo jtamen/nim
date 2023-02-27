@@ -86,3 +86,41 @@ Brancher la carte micro:bit en USB avec le câble fourni.
 Téléverser le programme dans la carte micro:bit à l'aide de la commande "Télécharger".
 ![Afficher bouton](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fbp_telecharger.jpg)
 
+## @showdialog
+Nous allons travailler sur la carte du joueur 1.
+Voici l'algorithme de programmation :
+![Afficher l'algorithme arbitre](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Falgorithme_joueur1.png)
+
+# Etape 1 : carte joueur 1
+![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fjoueur1-1.jpg)
+```blocks
+radio.setGroup(1)
+let Joueur1 = 0
+let _1_ou_2_ou_3 = 0
+```
+
+# Etape 2 : carte joueur 1
+![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fjoueur1-2.jpg)
+```blocks
+input.onButtonPressed(Button.A, function () {
+    _1_ou_2_ou_3 += 1
+    basic.showNumber(_1_ou_2_ou_3)
+    if (_1_ou_2_ou_3 == 4) {
+        _1_ou_2_ou_3 = 1
+        basic.showNumber(_1_ou_2_ou_3)
+    }
+})
+```
+
+# Etape 3 : carte joueur 1
+![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fjoueur1-2.jpg)
+```blocks
+input.onButtonPressed(Button.A, function () {
+    _1_ou_2_ou_3 += 1
+    basic.showNumber(_1_ou_2_ou_3)
+    if (_1_ou_2_ou_3 == 4) {
+        _1_ou_2_ou_3 = 1
+        basic.showNumber(_1_ou_2_ou_3)
+    }
+})
+```
