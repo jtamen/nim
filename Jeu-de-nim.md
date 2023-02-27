@@ -16,3 +16,8 @@ puis il valide son choix en appuyant sur le bouton B.
 C'est ensuite au deuxième joueur de faire son choix, et ainsi de suite jusqu'à la dernière del qui désigne le gagnant.
 La carte 3 sert à désigner le joueur qui commence et à désigner le gagnant de la partie.
 ![Afficher les 3 cartes](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fjeu%20de%20nim.jpg)
+
+## @showdialog
+Nous allons travailler dabord sur la 3eme carte, celle qui sert d'arbitrage et d'éclairage des Dels.
+Voici l'algorithme de programmation :
+![Afficher l'algorithme arbitre](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Falgorithme_arbitre-Page-1.png)
