@@ -1,15 +1,6 @@
 
 > Ouvrir cette page à [https://jtamen.github.io/nim/](https://jtamen.github.io/nim/)
 
-## Utiliser comme extension
-
-Ce dépôt peut être ajouté en tant qu'**extension** dans MakeCode.
-
-* ouvrir [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* cliquez sur **Nouveau projet**
-* cliquez sur **Extensions** dans le menu engrenage
-* recherchez **https://github.com/jtamen/nim** et importez
-
 ## Éditer ce projet ![Badge du statut de la compilation](https://github.com/jtamen/nim/workflows/MakeCode/badge.svg)
 
 Éditer ce dépôt dans MakeCode.
@@ -18,6 +9,10 @@ Ce dépôt peut être ajouté en tant qu'**extension** dans MakeCode.
 * cliquez sur **Importer** puis cliquez sur **Importer l'URL **
 * collez **https://github.com/jtamen/nim** et cliquez sur importer
 
+## Tutoriels
+* [Visualiser le tutoriel du jeu de nim ***** ](/nim/Jeu-de-nim)[Accéder au tutoriel du jeu de nim]
+* (https://makecode.microbit.org/#tutorial:github:jtamen/nim/Jeu-de-nim)
+* 
 ## Aperçu des blocs
 
 Cette section montre le code des blocs du dernier commit dans la branche master.
