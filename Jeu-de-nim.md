@@ -22,12 +22,12 @@ Nous allons travailler dabord sur la 3eme carte, celle qui sert d'arbitrage et d
 Voici l'algorithme de programmation :
 ![Afficher l'algorithme arbitre](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Falgorithme_arbitre-Page-1.png)
 
-# Etape 1 : carte arbitre
+## Etape 1 : carte arbitre
 ![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Farbitre-1.jpg)
 Ce qui se transforme en :
 ![Afficher les blocs](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2FBlocs1.jpg)
 
-# Etape 2 : carte arbitre
+## Etape 2 : carte arbitre
 ![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Farbitre-2.jpg)
 ```blocks
 input.onButtonPressed(Button.A, function () {
@@ -42,7 +42,7 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-# Etape 3 : carte arbitre
+## Etape 3 : carte arbitre
 ![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Farbitre-3.jpg)
 ```blocks
 input.onButtonPressed(Button.B, function () {
@@ -57,17 +57,17 @@ input.onButtonPressed(Button.B, function () {
 })
 ```
 
-# Etape 4 : carte arbitre
+## Etape 4 : carte arbitre
 ![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Farbitre-4.jpg)
 Ce qui se transforme en :
 ![Afficher les blocs](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2FBlocs_toujours.jpg)
 
-# Etape 5 : carte arbitre
+## Etape 5 : carte arbitre
 ![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Farbitre-5.jpg)
 Ce qui se transforme en :
 ![Afficher les blocs](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2FBlocs5.jpg)
 
-# Etape 6 : carte arbitre
+## Etape 6 : carte arbitre
 ![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Farbitre-6.jpg)
 ```blocks
 radio.onReceivedString(function (receivedString) {
@@ -91,7 +91,7 @@ Nous allons à présent travailler sur la carte du joueur 1.
 Voici l'algorithme de programmation :
 ![Afficher l'algorithme arbitre](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Falgorithme_joueur1.png)
 
-# Etape 1 : carte joueur 1
+## Etape 1 : carte joueur 1
 ![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fjoueur1-1.jpg)
 ```blocks
 radio.setGroup(1)
@@ -99,7 +99,7 @@ let Joueur1 = 0
 let _1_ou_2_ou_3 = 0
 ```
 
-# Etape 2 : carte joueur 1
+## Etape 2 : carte joueur 1
 ![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fjoueur1-2.jpg)
 ```blocks
 input.onButtonPressed(Button.A, function () {
@@ -112,7 +112,7 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-# Etape 3 : carte joueur 1
+## Etape 3 : carte joueur 1
 ![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fjoueur1-3.jpg)
 ```blocks
 let Joueur1 = 0
@@ -136,7 +136,7 @@ input.onButtonPressed(Button.B, function () {
 })
 ```
 
-# Etape 4 : carte joueur 1
+## Etape 4 : carte joueur 1
 ![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fjoueur1-4.jpg)
 ```blocks
 let Joueur1 = 0
@@ -152,7 +152,7 @@ radio.onReceivedNumber(function (receivedNumber) {
 })
 ```
 
-# Etape 5 : carte joueur 1
+## Etape 5 : carte joueur 1
 ![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fjoueur1-5.jpg)
 ```blocks
 radio.onReceivedString(function (receivedString) {
@@ -175,7 +175,7 @@ Nous allons à présent travailler sur la carte du joueur 2.
 Voici l'algorithme de programmation :
 ![Afficher l'algorithme arbitre](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Falgorithme_joueur2.png)
 
-# Etape 1 : carte joueur 2
+## Etape 1 : carte joueur 2
 ![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fjoueur2-1.jpg)
 ```blocks
 radio.setGroup(1)
@@ -183,7 +183,7 @@ let Joueur2 = 0
 let _1_ou_2_ou_3 = 0
 ```
 
-# Etape 2 : carte joueur 2
+## Etape 2 : carte joueur 2
 ![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fjoueur1-2.jpg)
 ```blocks
 input.onButtonPressed(Button.A, function () {
@@ -196,7 +196,7 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-# Etape 3 : carte joueur 2
+## Etape 3 : carte joueur 2
 ![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fjoueur2-3.jpg)
 ```blocks
 let Joueur2 = 0
@@ -220,7 +220,7 @@ input.onButtonPressed(Button.B, function () {
 })
 ```
 
-# Etape 4 : carte joueur 2
+## Etape 4 : carte joueur 2
 ![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fjoueur2-4.jpg)
 ```blocks
 let Joueur2 = 0
@@ -236,7 +236,7 @@ radio.onReceivedNumber(function (receivedNumber) {
 })
 ```
 
-# Etape 5 : carte joueur 2
+## Etape 5 : carte joueur 2
 ![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fjoueur2-5.jpg)
 ```blocks
 radio.onReceivedString(function (receivedString) {
