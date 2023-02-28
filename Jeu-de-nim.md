@@ -236,21 +236,23 @@ radio.onReceivedNumber(function (receivedNumber) {
 })
 ```
 
-# Etape 5 : carte joueur 1
-![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fjoueur1-5.jpg)
+# Etape 5 : carte joueur 2
+![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fjoueur2-5.jpg)
 ```blocks
 radio.onReceivedString(function (receivedString) {
     if (receivedString == "J1") {
-        basic.showIcon(IconNames.Happy)
+        basic.showIcon(IconNames.Sad)
     }
     if (receivedString == "J2") {
-        basic.showIcon(IconNames.Sad)
+        basic.showIcon(IconNames.Happy)
     }
 })
 ```
-## Etape 6 : carte joueur 1
+## Etape 6 : carte joueur 2
 Brancher la carte micro:bit en USB avec le câble fourni.
-![Afficher branchement](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fjeu%20de%20nim-joueur1.jpg)
+![Afficher branchement](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fjeu%20de%20nim-joueur2.jpg)
 Téléverser le programme dans la carte micro:bit à l'aide de la commande "Télécharger".
 ![Afficher bouton](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fbp_telecharger.jpg)
 
+## FIN
+Nous avons fini notre programmation, il reste à tester si cela fonctionne !
