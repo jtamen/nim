@@ -51,7 +51,7 @@ Voici l'algorithme de programmation :
 
 ## Etape 1 : carte arbitre
 ![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Farbitre-1.jpg)
-Ce qui se transforme en :
+
 ![Afficher les blocs](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2FBlocs1.jpg)
 
 ## Etape 2 : carte arbitre
@@ -86,12 +86,12 @@ input.onButtonPressed(Button.B, function () {
 
 ## Etape 4 : carte arbitre
 ![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Farbitre-4.jpg)
-Ce qui se transforme en :
+
 ![Afficher les blocs](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2FBlocs_toujours.jpg)
 
 ## Etape 5 : carte arbitre
 ![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Farbitre-5.jpg)
-Ce qui se transforme en :
+
 ![Afficher les blocs](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2FBlocs5.jpg)
 
 ## Etape 6 : carte arbitre
@@ -111,6 +111,8 @@ radio.onReceivedString(function (receivedString) {
 Brancher la carte micro:bit en USB avec le câble fourni.
 ![Afficher branchement](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fjeu%20de%20nim-branchement.jpg)
 Téléverser le programme dans la carte micro:bit à l'aide de la commande "Télécharger".
+Il est fortement conseillé d'enregistrer le programme dans un dossier en le renommant afin de le recharger en dehors du tutoriel
+en cas de disfonctionnement. On pourra  ainsi utiliser le mode débogage. La procédure est la même.
 ![Afficher bouton](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fbp_telecharger.jpg)
 
 ## @showdialog
@@ -195,6 +197,8 @@ radio.onReceivedString(function (receivedString) {
 Brancher la carte micro:bit en USB avec le câble fourni.
 ![Afficher branchement](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fjeu%20de%20nim-joueur1.jpg)
 Téléverser le programme dans la carte micro:bit à l'aide de la commande "Télécharger".
+Il est fortement conseillé d'enregistrer le programme dans un dossier en le renommant afin de le recharger en dehors du tutoriel
+en cas de disfonctionnement. On pourra  ainsi utiliser le mode débogage. La procédure est la même.
 ![Afficher bouton](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fbp_telecharger.jpg)
 
 ## @showdialog
@@ -279,6 +283,8 @@ radio.onReceivedString(function (receivedString) {
 Brancher la carte micro:bit en USB avec le câble fourni.
 ![Afficher branchement](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fjeu%20de%20nim-joueur2.jpg)
 Téléverser le programme dans la carte micro:bit à l'aide de la commande "Télécharger".
+Il est fortement conseillé d'enregistrer le programme dans un dossier en le renommant afin de le recharger en dehors du tutoriel
+en cas de disfonctionnement. On pourra  ainsi utiliser le mode débogage. La procédure est la même.
 ![Afficher bouton](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fbp_telecharger.jpg)
 
 ## FIN
