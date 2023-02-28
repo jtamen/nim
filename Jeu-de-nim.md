@@ -116,6 +116,9 @@ en cas de disfonctionnement. On pourra  ainsi utiliser le mode débogage. La pro
 ![Afficher bouton](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fbp_telecharger.jpg)
 
 ## @showdialog
+Il est vivement conseillé de supprimer tous les blocs créés dans le programme précédent, avant de commencer le nouveau programme !
+
+## @showdialog
 Nous allons à présent travailler sur la carte du joueur 1.
 Voici l'algorithme de programmation :
 ![Afficher l'algorithme arbitre](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Falgorithme_joueur1.png)
@@ -201,6 +204,9 @@ Il est également conseillé d'enregistrer le programme dans un dossier en le re
 en cas de disfonctionnement. On pourra  ainsi utiliser le mode débogage. La procédure est la même.
 ![Afficher bouton](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fbp_telecharger.jpg)
 
+## @showdialog
+On peut conserver les anciens blocs du programme précédent, mais attention de ne pas oublier de modifier certains paramètres
+comme les variables joueur1 et joueur2, etc... sous peine de voir le programme ne pas fonctionner correctement !
 ## @showdialog
 Nous allons à présent travailler sur la carte du joueur 2.
 Voici l'algorithme de programmation :
