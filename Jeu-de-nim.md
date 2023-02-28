@@ -1,10 +1,4 @@
 # Jeu-de-nim
-```ghost
-let strip = neopixel.create(DigitalPin.P0, 24, NeoPixelMode.RGB)
-for (let index = 0; index <= 4; index++) {
-    strip.setPixelColor(index + 0, neopixel.colors(NeoPixelColors.Red))
-}
-```
 
 ## @showdialog
 Tutoriel créé par :
@@ -39,16 +33,7 @@ Ce qui se transforme en :
 ## Etape 2 : carte arbitre
 ![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Farbitre-2.jpg)
 ```blocks
-input.onButtonPressed(Button.A, function () {
-    radio.sendNumber(10)
-    basic.showLeds(`
-        . # . . #
-        . # . # #
-        . # . . #
-        . # . . #
-        # . . . #
-        `)
-})
+
 ```
 
 ## Etape 3 : carte arbitre
