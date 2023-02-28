@@ -175,15 +175,15 @@ Nous allons à présent travailler sur la carte du joueur 2.
 Voici l'algorithme de programmation :
 ![Afficher l'algorithme arbitre](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Falgorithme_joueur2.png)
 
-# Etape 1 : carte joueur 1
-![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fjoueur1-1.jpg)
+# Etape 1 : carte joueur 2
+![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fjoueur2-1.jpg)
 ```blocks
 radio.setGroup(1)
-let Joueur1 = 0
+let Joueur2 = 0
 let _1_ou_2_ou_3 = 0
 ```
 
-# Etape 2 : carte joueur 1
+# Etape 2 : carte joueur 2
 ![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fjoueur1-2.jpg)
 ```blocks
 input.onButtonPressed(Button.A, function () {
@@ -196,12 +196,12 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-# Etape 3 : carte joueur 1
-![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fjoueur1-3.jpg)
+# Etape 3 : carte joueur 2
+![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fjoueur2-3.jpg)
 ```blocks
-let Joueur1 = 0
+let Joueur2 = 0
 input.onButtonPressed(Button.B, function () {
-    if (Joueur1) {
+    if (Joueur2) {
         let _1_ou_2_ou_3 = 0
         if (_1_ou_2_ou_3 == 1) {
             radio.sendNumber(1)
@@ -212,26 +212,26 @@ input.onButtonPressed(Button.B, function () {
         if (_1_ou_2_ou_3 == 3) {
             radio.sendNumber(3)
         }
-        Joueur1 = 0
+        Joueur2 = 0
         basic.showIcon(IconNames.No)
-        radio.sendNumber(20)
+        radio.sendNumber(10)
     }
-    radio.sendString("Joueur1")
+    radio.sendString("Joueur2")
 })
 ```
 
-# Etape 4 : carte joueur 1
-![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fjoueur1-4.jpg)
+# Etape 4 : carte joueur 2
+![Afficher l'algorigramme](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fjoueur2-4.jpg)
 ```blocks
-let Joueur1 = 0
+let Joueur2 = 0
 radio.onReceivedNumber(function (receivedNumber) {
-    if (receivedNumber == 10) {
-        basic.showIcon(IconNames.Yes)
-        Joueur1 = 1
-    }
     if (receivedNumber == 20) {
+        basic.showIcon(IconNames.Yes)
+        Joueur2 = 1
+    }
+    if (receivedNumber == 10) {
         basic.showIcon(IconNames.No)
-        Joueur1 = 0
+        Joueur2 = 0
     }
 })
 ```
