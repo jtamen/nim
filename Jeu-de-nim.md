@@ -1,4 +1,4 @@
-# Jeu-de-nim
+# Jeu-de-nim @showhint
 ```package
 neopixel=github:microsoft/pxt-neopixel#v0.6.12
 ```
