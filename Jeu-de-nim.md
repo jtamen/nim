@@ -1,4 +1,4 @@
-# Jeu-de-nim @showhint
+# Jeu-de-nim 
 ```package
 neopixel=github:microsoft/pxt-neopixel#v0.6.12
 ```
@@ -111,7 +111,7 @@ radio.onReceivedString(function (receivedString) {
 Brancher la carte micro:bit en USB avec le câble fourni.
 ![Afficher branchement](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fjeu%20de%20nim-branchement.jpg)
 Téléverser le programme dans la carte micro:bit à l'aide de la commande "Télécharger".
-Il est fortement conseillé d'enregistrer le programme dans un dossier en le renommant afin de le recharger en dehors du tutoriel
+Il est également conseillé d'enregistrer le programme dans un dossier en le renommant afin de le recharger en dehors du tutoriel
 en cas de disfonctionnement. On pourra  ainsi utiliser le mode débogage. La procédure est la même.
 ![Afficher bouton](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fbp_telecharger.jpg)
 
@@ -197,7 +197,7 @@ radio.onReceivedString(function (receivedString) {
 Brancher la carte micro:bit en USB avec le câble fourni.
 ![Afficher branchement](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fjeu%20de%20nim-joueur1.jpg)
 Téléverser le programme dans la carte micro:bit à l'aide de la commande "Télécharger".
-Il est fortement conseillé d'enregistrer le programme dans un dossier en le renommant afin de le recharger en dehors du tutoriel
+Il est également conseillé d'enregistrer le programme dans un dossier en le renommant afin de le recharger en dehors du tutoriel
 en cas de disfonctionnement. On pourra  ainsi utiliser le mode débogage. La procédure est la même.
 ![Afficher bouton](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fbp_telecharger.jpg)
 
@@ -283,7 +283,7 @@ radio.onReceivedString(function (receivedString) {
 Brancher la carte micro:bit en USB avec le câble fourni.
 ![Afficher branchement](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fjeu%20de%20nim-joueur2.jpg)
 Téléverser le programme dans la carte micro:bit à l'aide de la commande "Télécharger".
-Il est fortement conseillé d'enregistrer le programme dans un dossier en le renommant afin de le recharger en dehors du tutoriel
+Il est également conseillé d'enregistrer le programme dans un dossier en le renommant afin de le recharger en dehors du tutoriel
 en cas de disfonctionnement. On pourra  ainsi utiliser le mode débogage. La procédure est la même.
 ![Afficher bouton](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Fbp_telecharger.jpg)
 
