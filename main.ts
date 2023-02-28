@@ -1,8 +1,6 @@
-let strip = neopixel.create(DigitalPin.P0, 24, NeoPixelMode.RGB)
-for (let index = 0; index <= 4; index++) {
-    strip.setPixelColor(index + 0, neopixel.colors(NeoPixelColors.Red))
-}
+let strip: neopixel.Strip = null
 basic.forever(function () {
+    strip = neopixel.create(DigitalPin.P0, 20, NeoPixelMode.RGB)
     strip.show()
     strip.showRainbow(1, 360)
 })
