@@ -1,7 +1,16 @@
 # Jeu-de-nim
+```ghost
+let strip = neopixel.create(DigitalPin.P0, 24, NeoPixelMode.RGB)
+for (let index = 0; index <= 4; index++) {
+    strip.setPixelColor(index + 0, neopixel.colors(NeoPixelColors.Red))
+}
+```
+
 ## @showdialog
 Tutoriel créé par :
 ![Afficher logo](https://edu.tactileo.fr/storage/download?filePath=0750360J%2Fjtamen%2Fpublic%2Flogo-technotam-chappe1.jpg)
+Tout au long de ce tutoriel, si l'image est trop petite pour apparaître correctement, il est conseillé de faire un clic droit dessus,
+puis "ouvrir l'image dans un nouvel onglet".
 
 ## @showdialog
 Académie :
