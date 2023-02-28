@@ -1,4 +1,10 @@
-let strip = neopixel.create(DigitalPin.P0, 24, NeoPixelMode.RGB)
-for (let index = 0; index <= 4; index++) {
-    strip.setPixelColor(index + 0, neopixel.colors(NeoPixelColors.Red))
-}
+input.onButtonPressed(Button.A, function () {
+    radio.sendNumber(10)
+    basic.showLeds(`
+        . # . . #
+        . # . # #
+        . # . . #
+        . # . . #
+        # . . . #
+        `)
+})
