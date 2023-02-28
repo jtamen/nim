@@ -1,7 +1,1 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="uEhGh[D-5~kQxC6uL(S/" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="radio_datagram_send" id="dq`|S_Te_kYYlMrmCX9q"><value name="value"><shadow type="math_number" id="b*i-VXGk~uoC!CI)Hm_|"><field name="NUM">10</field></shadow></value><next><block type="device_show_leds" id="+p(1Dc?2Bk9gXoivuf8I"><field name="LEDS">`
-        . # . . # 
-        . # . # # 
-        . # . . # 
-        . # . . # 
-        # . . . #
-        `</field></block></next></block></statement></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="s$Q[c[;OiAp;AM3r{,~[">strip</variable></variables><block type="pxt-on-start" id="IKC.340IkxWx,dj4E1r," x="5" y="42"><statement name="HANDLER"><block type="variables_set" id="gTN02$qxCk{#+,cKi2a:"><field name="VAR" id="s$Q[c[;OiAp;AM3r{,~[">strip</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="neopixel_create" id="_GE~DMPOtc6VWT*#E+17"><field name="pin">DigitalPin.P0</field><field name="mode">NeoPixelMode.RGB</field><value name="numleds"><shadow type="math_number" id="a^~|B1Fy?MJ[@E|)-OY+"><field name="NUM">24</field></shadow></value></block></value></block></statement></block></xml>

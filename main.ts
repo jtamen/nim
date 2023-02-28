@@ -1,10 +1,1 @@
-input.onButtonPressed(Button.A, function () {
-    radio.sendNumber(10)
-    basic.showLeds(`
-        . # . . #
-        . # . # #
-        . # . . #
-        . # . . #
-        # . . . #
-        `)
-})
+let strip = neopixel.create(DigitalPin.P0, 24, NeoPixelMode.RGB)

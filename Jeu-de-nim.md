@@ -250,3 +250,7 @@ Téléverser le programme dans la carte micro:bit à l'aide de la commande "Tél
 
 ## FIN
 Nous avons fini notre programmation, il reste à tester si cela fonctionne !
+
+```template
+let strip = neopixel.create(DigitalPin.P0, 24, NeoPixelMode.RGB)
+```
